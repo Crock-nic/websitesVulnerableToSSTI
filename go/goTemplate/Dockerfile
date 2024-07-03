@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 golang
+FROM --platform=linux/amd64 golang:1.22.4
 EXPOSE 5090
 COPY src/ /home
 WORKDIR /home
